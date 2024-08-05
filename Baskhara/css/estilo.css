@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 70vh;
+    background-color: blanchedalmond;
+    justify-content: space-between;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+
+}
+
+#titulo{
+    width: 100%;
+    height: 6vh;
+    border-radius: 0px 0px 50px 50px;
+    display:flex;
+    justify-content: center;
+    background:linear-gradient(to bottom, rgba(0,0,0,0.6),rgba(120,120,120,0.4),rgba(250,250,250,0.2)) ;
+
+}
+
+#coisas{
+    display:flex;
+    width: 70%; 
+    height: 60vh;
+    border-radius: 30px;
+    background-color: aliceblue;    
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#funcao2grau {
+    display: flex; /* Alinha os elementos filhos na horizontal */
+    align-items: center; /* Alinha verticalmente no centro */
+}
+
+#a, #b, #c {
+    width: 70px;
+    height: 1.4vh; /* Ajusta a altura para tornar os inputs mais visíveis */
+    font-size: 1.5em; /* Aumenta o tamanho da fonte dos inputs */
+}
+
+h1 {
+    margin: 0; /* Remove a margem dos elementos h1 para melhor alinhamento */
+    font-size: 1.5em; /* Ajusta o tamanho da fonte dos h1 para consistência */
+}
