@@ -25,13 +25,14 @@ body{
 
 #coisas{
     display:flex;
-    width: 70%; 
+    width: 50%; 
     height: 60vh;
     border-radius: 30px;
     background-color: aliceblue;    
     justify-content: center;
     align-items: center;
     gap: 20px;
+    flex-direction: column;
 }
 
 #funcao2grau {
@@ -39,13 +40,30 @@ body{
     align-items: center; /* Alinha verticalmente no centro */
 }
 
-#a, #b, #c {
+#n1, #n2, #n3,#x1,#x2,#delta {
+    display: flex;
     width: 70px;
-    height: 1.4vh; /* Ajusta a altura para tornar os inputs mais visíveis */
+    height: 2vh; /* Ajusta a altura para tornar os inputs mais visíveis */
     font-size: 1.5em; /* Aumenta o tamanho da fonte dos inputs */
+    justify-content: center;
+    align-items: center;
 }
+
 
 h1 {
     margin: 0; /* Remove a margem dos elementos h1 para melhor alinhamento */
     font-size: 1.5em; /* Ajusta o tamanho da fonte dos h1 para consistência */
+}
+
+#deltaContainer{
+    display: flex;
+}
+#raizes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    font-size: 1.5em;
 }

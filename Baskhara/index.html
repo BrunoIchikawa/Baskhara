@@ -1,9 +1,11 @@
+<!--pesquisar dom-->
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Decisão-IF</title>
+    <title>Baskhara-IF</title>
     <link rel="stylesheet" href="./css/estilo.css">
 </head>
 <body>
@@ -12,11 +14,25 @@
     </div>
     <section id='coisas'>
         <div id="funcao2grau">
-            <input type="text" id="a"><h1>x²</h1>  <h1>+</h1> &nbsp;&nbsp;
-            <input type="text" id="b"><h1>x +</h1>&nbsp;&nbsp;
-            <input type="text" id="c"> &nbsp; <h1>=</h1> &nbsp; <h1>0</h1>
+            <input type="text" id="n1" ><h1>x²</h1>  <h1>+</h1> &nbsp;&nbsp;
+            <input type="text" id="n2">&nbsp;<h1>x +</h1>&nbsp;&nbsp;
+            <input type="text" id="n3"> &nbsp; <h1>=</h1> &nbsp; <h1>0</h1>
+        </div>
+        <div id="deltaContainer">
+            <h1>O valor de Δ(delta) é:</h1>
+            <input type="text" id="delta" disabled>
         </div>
         
+        <div id="raizes">
+            <h1>O valor de x' é:</h1>
+            <input type="text"id="x1" disabled>
+            <h1>O valor de x" é:</h1>
+            <input type="text" id="x2" disabled>
+        </div>
+        <div>
+            <button onclick="calcular()">Calcular</button>
+            <button>Limpar</button>
+        </div>
     </section>
     <script src="./js/script.js"></script>
 </body>
